@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&display=swap"
+        rel="stylesheet">  
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>   
+</head>
+
+<body>
+    <div class="intro">
+        <svg id="svglogo" width="749" height="104" viewBox="0 0 749 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M31.3516 1.632C42.2956 1.632 51.7516 3.696 59.7196 7.82399C67.7836 11.856 73.9276 17.664 78.1516 25.248C82.4716 32.832 84.6316 41.76 84.6316 52.032C84.6316 62.304 82.4716 71.232 78.1516 78.816C73.9276 86.304 67.7836 92.064 59.7196 96.096C51.7516 100.032 42.2956 102 31.3516 102H0.103638V1.632H31.3516ZM31.3516 91.2C44.3116 91.2 54.1996 87.792 61.0156 80.976C67.8316 74.064 71.2396 64.416 71.2396 52.032C71.2396 39.552 67.7836 29.808 60.8716 22.8C54.0556 15.792 44.2156 12.288 31.3516 12.288H13.2076V91.2H31.3516Z"
+            fill="white" />
+          <path d="M115.02 12.288V45.84H151.596V56.64H115.02V91.2H155.916V102H101.916V1.488H155.916V12.288H115.02Z"
+            fill="white" />
+          <path d="M258.688 1.632L220.816 102H205.696L167.824 1.632H181.792L213.328 88.176L244.864 1.632H258.688Z"
+            fill="white" />
+          <path d="M286.161 12.288V45.84H322.737V56.64H286.161V91.2H327.057V102H273.057V1.488H327.057V12.288H286.161Z"
+            fill="white" />
+          <path d="M359.989 91.344H395.125V102H346.885V1.632H359.989V91.344Z" fill="white" />
+          <path
+            d="M454.545 103.008C445.233 103.008 436.737 100.848 429.057 96.528C421.377 92.112 415.281 86.016 410.769 78.24C406.353 70.368 404.145 61.536 404.145 51.744C404.145 41.952 406.353 33.168 410.769 25.392C415.281 17.52 421.377 11.424 429.057 7.104C436.737 2.688 445.233 0.479996 454.545 0.479996C463.953 0.479996 472.497 2.688 480.177 7.104C487.857 11.424 493.905 17.472 498.321 25.248C502.737 33.024 504.945 41.856 504.945 51.744C504.945 61.632 502.737 70.464 498.321 78.24C493.905 86.016 487.857 92.112 480.177 96.528C472.497 100.848 463.953 103.008 454.545 103.008ZM454.545 91.632C461.553 91.632 467.841 90 473.409 86.736C479.073 83.472 483.489 78.816 486.657 72.768C489.921 66.72 491.553 59.712 491.553 51.744C491.553 43.68 489.921 36.672 486.657 30.72C483.489 24.672 479.121 20.016 473.553 16.752C467.985 13.488 461.649 11.856 454.545 11.856C447.441 11.856 441.105 13.488 435.537 16.752C429.969 20.016 425.553 24.672 422.289 30.72C419.121 36.672 417.537 43.68 417.537 51.744C417.537 59.712 419.121 66.72 422.289 72.768C425.553 78.816 429.969 83.472 435.537 86.736C441.201 90 447.537 91.632 454.545 91.632Z"
+            fill="white" />
+          <path
+            d="M589.348 31.008C589.348 39.36 586.468 46.32 580.708 51.888C575.044 57.36 566.356 60.096 554.644 60.096H535.348V102H522.244V1.632H554.644C565.972 1.632 574.564 4.368 580.42 9.84C586.372 15.312 589.348 22.368 589.348 31.008ZM554.644 49.296C561.94 49.296 567.316 47.712 570.772 44.544C574.228 41.376 575.956 36.864 575.956 31.008C575.956 18.624 568.852 12.432 554.644 12.432H535.348V49.296H554.644Z"
+            fill="white" />
+          <path d="M618.739 12.288V45.84H655.315V56.64H618.739V91.2H659.635V102H605.635V1.488H659.635V12.288H618.739Z"
+            fill="white" />
+          <path
+            d="M732.311 102L708.407 60.96H692.567V102H679.463V1.632H711.863C719.447 1.632 725.831 2.928 731.015 5.52C736.295 8.112 740.231 11.616 742.823 16.032C745.415 20.448 746.711 25.488 746.711 31.152C746.711 38.064 744.695 44.16 740.663 49.44C736.727 54.72 730.775 58.224 722.807 59.952L748.007 102H732.311ZM692.567 50.448H711.863C718.967 50.448 724.295 48.72 727.847 45.264C731.399 41.712 733.175 37.008 733.175 31.152C733.175 25.2 731.399 20.592 727.847 17.328C724.391 14.064 719.063 12.432 711.863 12.432H692.567V50.448Z"
+            fill="white" />
+        </svg>
+    
+    
+        <!-- <svg id="svglogo" width="812" height="121" viewBox="0 0 812 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.49219 114V7.35938H35.5947C44.8721 7.35938 53.0752 9.41016 60.2041 13.5117C67.333 17.6133 72.8262 23.4482 76.6836 31.0166C80.5898 38.585 82.5674 47.2764 82.6162 57.0908V63.9023C82.6162 73.9609 80.6631 82.7744 76.7568 90.3428C72.8994 97.9111 67.3574 103.722 60.1309 107.774C52.9531 111.827 44.5791 113.902 35.0088 114H5.49219ZM19.5547 18.9316V102.501H34.3496C45.1895 102.501 53.6123 99.1318 59.6182 92.3936C65.6729 85.6553 68.7002 76.0605 68.7002 63.6094V57.3838C68.7002 45.2744 65.8438 35.875 60.1309 29.1855C54.4668 22.4473 46.4102 19.0293 35.9609 18.9316H19.5547ZM164.208 64.708H117.992V102.501H171.679V114H103.93V7.35938H170.946V18.9316H117.992V53.209H164.208V64.708ZM224.486 95.3232L254.955 7.35938H270.336L230.785 114H218.334L178.856 7.35938H194.164L224.486 95.3232ZM344.97 64.708H298.754V102.501H352.44V114H284.691V7.35938H351.708V18.9316H298.754V53.209H344.97V64.708ZM384.081 102.501H434.618V114H369.945V7.35938H384.081V102.501ZM527.855 64.1221C527.855 74.5713 526.098 83.7021 522.582 91.5146C519.066 99.2783 514.086 105.211 507.641 109.312C501.195 113.414 493.676 115.465 485.082 115.465C476.684 115.465 469.237 113.414 462.743 109.312C456.249 105.162 451.195 99.2783 447.582 91.6611C444.018 83.9951 442.187 75.1328 442.089 65.0742V57.3838C442.089 47.1299 443.871 38.0723 447.436 30.2109C451 22.3496 456.029 16.3438 462.523 12.1934C469.066 7.99414 476.537 5.89453 484.936 5.89453C493.48 5.89453 501 7.96973 507.494 12.1201C514.037 16.2217 519.066 22.2031 522.582 30.0645C526.098 37.877 527.855 46.9834 527.855 57.3838V64.1221ZM513.866 57.2373C513.866 44.5908 511.327 34.8984 506.249 28.1602C501.171 21.373 494.066 17.9795 484.936 17.9795C476.049 17.9795 469.042 21.373 463.915 28.1602C458.837 34.8984 456.225 44.2734 456.078 56.2852V64.1221C456.078 76.3779 458.642 86.0215 463.769 93.0527C468.944 100.035 476.049 103.526 485.082 103.526C494.164 103.526 501.195 100.23 506.176 93.6387C511.156 86.998 513.72 77.501 513.866 65.1475V57.2373ZM563.012 72.252V114H548.949V7.35938H588.28C599.95 7.35938 609.081 10.3379 615.673 16.2949C622.313 22.252 625.634 30.1377 625.634 39.9521C625.634 50.3037 622.387 58.2871 615.893 63.9023C609.447 69.4688 600.194 72.252 588.134 72.252H563.012ZM563.012 60.7529H588.28C595.8 60.7529 601.562 58.9951 605.565 55.4795C609.569 51.915 611.571 46.7881 611.571 40.0986C611.571 33.751 609.569 28.6729 605.565 24.8643C601.562 21.0557 596.068 19.0781 589.086 18.9316H563.012V60.7529ZM703.856 64.708H657.641V102.501H711.327V114H643.578V7.35938H710.595V18.9316H657.641V53.209H703.856V64.708ZM767.943 70.8604H742.895V114H728.759V7.35938H764.062C776.073 7.35938 785.302 10.0937 791.747 15.5625C798.241 21.0313 801.488 28.9902 801.488 39.4395C801.488 46.0801 799.682 51.8662 796.068 56.7979C792.504 61.7295 787.523 65.416 781.127 67.8574L806.176 113.121V114H791.088L767.943 70.8604ZM742.895 59.3613H764.501C771.483 59.3613 777.025 57.5547 781.127 53.9414C785.277 50.3281 787.353 45.4941 787.353 39.4395C787.353 32.8477 785.375 27.7939 781.42 24.2783C777.514 20.7627 771.85 18.9805 764.428 18.9316H742.895V59.3613Z" fill="white"/>
+              <path d="M5.49219 114H0.492188V119H5.49219V114ZM5.49219 7.35938V2.35938H0.492188V7.35938H5.49219ZM76.6836 31.0166L72.2288 33.2871L72.2346 33.2985L72.2405 33.3098L76.6836 31.0166ZM82.6162 57.0908H87.6162V57.0784L87.6161 57.0659L82.6162 57.0908ZM76.7568 90.3428L72.3137 88.0496L72.3079 88.0609L72.3021 88.0723L76.7568 90.3428ZM60.1309 107.774L57.6852 103.413L57.6788 103.417L57.6725 103.42L60.1309 107.774ZM35.0088 114V119H35.0343L35.0598 119L35.0088 114ZM19.5547 18.9316V13.9316H14.5547V18.9316H19.5547ZM19.5547 102.501H14.5547V107.501H19.5547V102.501ZM59.6182 92.3936L55.899 89.0517L55.8923 89.0592L55.8856 89.0667L59.6182 92.3936ZM60.1309 29.1855L56.3034 32.4028L56.316 32.4178L56.3287 32.4326L60.1309 29.1855ZM35.9609 18.9316L36.0077 13.9319L35.9843 13.9316H35.9609V18.9316ZM10.4922 114V7.35938H0.492188V114H10.4922ZM5.49219 12.3594H35.5947V2.35938H5.49219V12.3594ZM35.5947 12.3594C44.1111 12.3594 51.4335 14.2341 57.7106 17.8456L62.6976 9.17783C54.7169 4.58622 45.633 2.35938 35.5947 2.35938V12.3594ZM57.7106 17.8456C63.971 21.4474 68.7962 26.5521 72.2288 33.2871L81.1384 28.7461C76.8562 20.3444 70.6951 13.7791 62.6976 9.17783L57.7106 17.8456ZM72.2405 33.3098C75.7331 40.0767 77.5708 47.97 77.6163 57.1157L87.6161 57.0659C87.564 46.5827 85.4466 37.0932 81.1267 28.7234L72.2405 33.3098ZM77.6162 57.0908V63.9023H87.6162V57.0908H77.6162ZM77.6162 63.9023C77.6162 73.307 75.7933 81.308 72.3137 88.0496L81.1999 92.636C85.5329 84.2409 87.6162 74.6149 87.6162 63.9023H77.6162ZM72.3021 88.0723C68.8811 94.7843 64.0274 99.8566 57.6852 103.413L62.5766 112.135C70.6874 107.587 76.9177 101.038 81.2116 92.6133L72.3021 88.0723ZM57.6725 103.42C51.3406 106.996 43.821 108.91 34.9578 109L35.0598 119C45.3372 118.895 54.5657 116.659 62.5892 112.128L57.6725 103.42ZM35.0088 109H5.49219V119H35.0088V109ZM14.5547 18.9316V102.501H24.5547V18.9316H14.5547ZM19.5547 107.501H34.3496V97.501H19.5547V107.501ZM34.3496 107.501C46.303 107.501 56.2065 103.736 63.3507 95.7204L55.8856 89.0667C51.0181 94.5278 44.0759 97.501 34.3496 97.501V107.501ZM63.3373 95.7354C70.4819 87.7842 73.7002 76.8297 73.7002 63.6094H63.7002C63.7002 75.2914 60.8638 83.5264 55.899 89.0517L63.3373 95.7354ZM73.7002 63.6094V57.3838H63.7002V63.6094H73.7002ZM73.7002 57.3838C73.7002 44.5314 70.667 33.8235 63.933 25.9385L56.3287 32.4326C61.0205 37.9265 63.7002 46.0174 63.7002 57.3838H73.7002ZM63.9583 25.9683C57.1769 17.9008 47.616 14.0403 36.0077 13.9319L35.9142 23.9314C45.2043 24.0182 51.7567 26.9937 56.3034 32.4028L63.9583 25.9683ZM35.9609 13.9316H19.5547V23.9316H35.9609V13.9316ZM164.208 64.708V69.708H169.208V64.708H164.208ZM117.992 64.708V59.708H112.992V64.708H117.992ZM117.992 102.501H112.992V107.501H117.992V102.501ZM171.679 102.501H176.679V97.501H171.679V102.501ZM171.679 114V119H176.679V114H171.679ZM103.93 114H98.9297V119H103.93V114ZM103.93 7.35938V2.35938H98.9297V7.35938H103.93ZM170.946 7.35938H175.946V2.35938H170.946V7.35938ZM170.946 18.9316V23.9316H175.946V18.9316H170.946ZM117.992 18.9316V13.9316H112.992V18.9316H117.992ZM117.992 53.209H112.992V58.209H117.992V53.209ZM164.208 53.209H169.208V48.209H164.208V53.209ZM164.208 59.708H117.992V69.708H164.208V59.708ZM112.992 64.708V102.501H122.992V64.708H112.992ZM117.992 107.501H171.679V97.501H117.992V107.501ZM166.679 102.501V114H176.679V102.501H166.679ZM171.679 109H103.93V119H171.679V109ZM108.93 114V7.35938H98.9297V114H108.93ZM103.93 12.3594H170.946V2.35938H103.93V12.3594ZM165.946 7.35938V18.9316H175.946V7.35938H165.946ZM170.946 13.9316H117.992V23.9316H170.946V13.9316ZM112.992 18.9316V53.209H122.992V18.9316H112.992ZM117.992 58.209H164.208V48.209H117.992V58.209ZM159.208 53.209V64.708H169.208V53.209H159.208ZM224.486 95.3232L219.759 96.9527L224.475 110.633L229.211 96.9597L224.486 95.3232ZM254.955 7.35938V2.35938H251.396L250.23 5.72288L254.955 7.35938ZM270.336 7.35938L275.024 9.09804L277.523 2.35938H270.336V7.35938ZM230.785 114V119H234.264L235.473 115.739L230.785 114ZM218.334 114L213.645 115.736L214.853 119H218.334V114ZM178.856 7.35938V2.35938H171.674L174.167 9.09521L178.856 7.35938ZM194.164 7.35938L198.891 5.72991L197.729 2.35938H194.164V7.35938ZM229.211 96.9597L259.68 8.99587L250.23 5.72288L219.762 93.6867L229.211 96.9597ZM254.955 12.3594H270.336V2.35938H254.955V12.3594ZM265.648 5.62071L226.097 112.261L235.473 115.739L275.024 9.09804L265.648 5.62071ZM230.785 109H218.334V119H230.785V109ZM223.023 112.264L183.545 5.62354L174.167 9.09521L213.645 115.736L223.023 112.264ZM178.856 12.3594H194.164V2.35938H178.856V12.3594ZM189.437 8.98884L219.759 96.9527L229.213 93.6938L198.891 5.72991L189.437 8.98884ZM344.97 64.708V69.708H349.97V64.708H344.97ZM298.754 64.708V59.708H293.754V64.708H298.754ZM298.754 102.501H293.754V107.501H298.754V102.501ZM352.44 102.501H357.44V97.501H352.44V102.501ZM352.44 114V119H357.44V114H352.44ZM284.691 114H279.691V119H284.691V114ZM284.691 7.35938V2.35938H279.691V7.35938H284.691ZM351.708 7.35938H356.708V2.35938H351.708V7.35938ZM351.708 18.9316V23.9316H356.708V18.9316H351.708ZM298.754 18.9316V13.9316H293.754V18.9316H298.754ZM298.754 53.209H293.754V58.209H298.754V53.209ZM344.97 53.209H349.97V48.209H344.97V53.209ZM344.97 59.708H298.754V69.708H344.97V59.708ZM293.754 64.708V102.501H303.754V64.708H293.754ZM298.754 107.501H352.44V97.501H298.754V107.501ZM347.44 102.501V114H357.44V102.501H347.44ZM352.44 109H284.691V119H352.44V109ZM289.691 114V7.35938H279.691V114H289.691ZM284.691 12.3594H351.708V2.35938H284.691V12.3594ZM346.708 7.35938V18.9316H356.708V7.35938H346.708ZM351.708 13.9316H298.754V23.9316H351.708V13.9316ZM293.754 18.9316V53.209H303.754V18.9316H293.754ZM298.754 58.209H344.97V48.209H298.754V58.209ZM339.97 53.209V64.708H349.97V53.209H339.97ZM384.081 102.501H379.081V107.501H384.081V102.501ZM434.618 102.501H439.618V97.501H434.618V102.501ZM434.618 114V119H439.618V114H434.618ZM369.945 114H364.945V119H369.945V114ZM369.945 7.35938V2.35938H364.945V7.35938H369.945ZM384.081 7.35938H389.081V2.35938H384.081V7.35938ZM384.081 107.501H434.618V97.501H384.081V107.501ZM429.618 102.501V114H439.618V102.501H429.618ZM434.618 109H369.945V119H434.618V109ZM374.945 114V7.35938H364.945V114H374.945ZM369.945 12.3594H384.081V2.35938H369.945V12.3594ZM379.081 7.35938V102.501H389.081V7.35938H379.081ZM522.582 91.5146L527.137 93.5772L527.142 93.5665L522.582 91.5146ZM462.743 109.312L460.051 113.526L460.062 113.533L460.073 113.54L462.743 109.312ZM447.582 91.6611L443.048 93.7692L443.056 93.7867L443.065 93.8041L447.582 91.6611ZM442.089 65.0742H437.089V65.0985L437.089 65.1228L442.089 65.0742ZM462.523 12.1934L465.216 16.4064L465.224 16.4013L462.523 12.1934ZM507.494 12.1201L504.802 16.3332L504.82 16.345L504.838 16.3566L507.494 12.1201ZM522.582 30.0645L518.018 32.1057L518.022 32.1163L522.582 30.0645ZM506.249 28.1602L502.246 31.1555L502.251 31.1625L502.256 31.1694L506.249 28.1602ZM463.915 28.1602L459.925 25.1464L459.922 25.1509L463.915 28.1602ZM456.078 56.2852L451.078 56.2242L451.078 56.2547V56.2852H456.078ZM463.769 93.0527L459.729 95.9986L459.74 96.0145L459.752 96.0302L463.769 93.0527ZM506.176 93.6387L510.165 96.6528L510.17 96.6458L510.176 96.6387L506.176 93.6387ZM513.866 65.1475L518.866 65.2067L518.866 65.1771V65.1475H513.866ZM522.855 64.1221C522.855 74.0159 521.191 82.4209 518.022 89.4628L527.142 93.5665C531.004 84.9834 532.855 75.1267 532.855 64.1221H522.855ZM518.027 89.4521C514.864 96.4366 510.489 101.573 504.956 105.094L510.325 113.531C517.683 108.849 523.268 102.12 527.137 93.5772L518.027 89.4521ZM504.956 105.094C499.41 108.623 492.847 110.465 485.082 110.465V120.465C494.504 120.465 502.98 118.205 510.325 113.531L504.956 105.094ZM485.082 110.465C477.537 110.465 471.034 108.635 465.413 105.085L460.073 113.54C467.44 118.193 475.83 120.465 485.082 120.465V110.465ZM465.436 105.099C459.806 101.501 455.35 96.3703 452.1 89.5182L443.065 93.8041C447.041 102.186 452.692 108.823 460.051 113.526L465.436 105.099ZM452.116 89.553C448.903 82.6433 447.181 74.5056 447.089 65.0257L437.089 65.1228C437.192 75.76 439.132 85.3469 443.048 93.7692L452.116 89.553ZM447.089 65.0742V57.3838H437.089V65.0742H447.089ZM447.089 57.3838C447.089 47.71 448.769 39.3781 451.989 32.2757L442.882 28.1462C438.973 36.7665 437.089 46.5497 437.089 57.3838H447.089ZM451.989 32.2757C455.204 25.1862 459.633 19.9748 465.216 16.4064L459.831 7.98028C452.426 12.7127 446.796 19.513 442.882 28.1462L451.989 32.2757ZM465.224 16.4013C470.896 12.7609 477.414 10.8945 484.936 10.8945V0.894531C475.66 0.894531 467.236 3.22742 459.823 7.98543L465.224 16.4013ZM484.936 10.8945C492.634 10.8945 499.197 12.7516 504.802 16.3332L510.187 7.90704C502.803 3.18789 494.327 0.894531 484.936 0.894531V10.8945ZM504.838 16.3566C510.447 19.8721 514.858 25.0409 518.018 32.1057L527.146 28.0232C523.275 19.3653 517.628 12.5712 510.15 7.88368L504.838 16.3566ZM518.022 32.1163C521.193 39.161 522.855 47.5425 522.855 57.3838H532.855C532.855 46.4243 531.003 36.593 527.142 28.0126L518.022 32.1163ZM522.855 57.3838V64.1221H532.855V57.3838H522.855ZM518.866 57.2373C518.866 44.0203 516.228 33.0932 510.242 25.1509L502.256 31.1694C506.427 36.7037 508.866 45.1614 508.866 57.2373H518.866ZM510.252 25.1648C504.149 17.0069 495.501 12.9795 484.936 12.9795V22.9795C492.632 22.9795 498.193 25.7392 502.246 31.1555L510.252 25.1648ZM484.936 12.9795C474.563 12.9795 466.046 17.0443 459.925 25.1464L467.905 31.1739C472.038 25.7018 477.534 22.9795 484.936 22.9795V12.9795ZM459.922 25.1509C453.982 33.0323 451.233 43.5841 451.078 56.2242L461.078 56.3461C461.217 44.9628 463.691 36.7646 467.908 31.1694L459.922 25.1509ZM451.078 56.2852V64.1221H461.078V56.2852H451.078ZM451.078 64.1221C451.078 77.0171 453.769 87.8257 459.729 95.9986L467.809 90.1069C463.514 84.2173 461.078 75.7387 461.078 64.1221H451.078ZM459.752 96.0302C465.913 104.343 474.538 108.526 485.082 108.526V98.5264C477.559 98.5264 471.975 95.7278 467.785 90.0753L459.752 96.0302ZM485.082 108.526C495.552 108.526 504.137 104.632 510.165 96.6528L502.186 90.6245C498.254 95.8291 492.776 98.5264 485.082 98.5264V108.526ZM510.176 96.6387C516.036 88.8249 518.713 78.129 518.866 65.2067L508.867 65.0882C508.727 76.873 506.276 85.1712 502.176 90.6387L510.176 96.6387ZM518.866 65.1475V57.2373H508.866V65.1475H518.866ZM563.012 72.252V67.252H558.012V72.252H563.012ZM563.012 114V119H568.012V114H563.012ZM548.949 114H543.949V119H548.949V114ZM548.949 7.35938V2.35938H543.949V7.35938H548.949ZM615.673 16.2949L612.32 20.0046L612.327 20.0107L612.334 20.0168L615.673 16.2949ZM615.893 63.9023L619.161 67.6865L619.163 67.6845L615.893 63.9023ZM563.012 60.7529H558.012V65.7529H563.012V60.7529ZM605.565 55.4795L608.864 59.2367L608.877 59.2254L608.89 59.214L605.565 55.4795ZM589.086 18.9316L589.191 13.9327L589.138 13.9316H589.086V18.9316ZM563.012 18.9316V13.9316H558.012V18.9316H563.012ZM558.012 72.252V114H568.012V72.252H558.012ZM563.012 109H548.949V119H563.012V109ZM553.949 114V7.35938H543.949V114H553.949ZM548.949 12.3594H588.28V2.35938H548.949V12.3594ZM588.28 12.3594C599.109 12.3594 606.905 15.1106 612.32 20.0046L619.025 12.5853C611.257 5.56514 600.792 2.35938 588.28 2.35938V12.3594ZM612.334 20.0168C617.805 24.9242 620.634 31.3989 620.634 39.9521H630.634C630.634 28.8765 626.822 19.5797 619.012 12.573L612.334 20.0168ZM620.634 39.9521C620.634 49.1786 617.793 55.6495 612.622 60.1201L619.163 67.6845C626.981 60.9247 630.634 51.4288 630.634 39.9521H620.634ZM612.624 60.1182C607.402 64.6286 599.488 67.252 588.134 67.252V77.252C600.9 77.252 611.493 74.3089 619.161 67.6865L612.624 60.1182ZM588.134 67.252H563.012V77.252H588.134V67.252ZM563.012 65.7529H588.28V55.7529H563.012V65.7529ZM588.28 65.7529C596.518 65.7529 603.634 63.8291 608.864 59.2367L602.266 51.7223C599.489 54.1612 595.081 55.7529 588.28 55.7529V65.7529ZM608.89 59.214C614.215 54.474 616.571 47.834 616.571 40.0986H606.571C606.571 45.7421 604.924 49.3561 602.241 51.745L608.89 59.214ZM616.571 40.0986C616.571 32.6042 614.158 26.1371 609.011 21.2415L602.119 28.487C604.98 31.2086 606.571 34.8978 606.571 40.0986H616.571ZM609.011 21.2415C603.884 16.3643 597.078 14.0982 589.191 13.9327L588.981 23.9305C595.058 24.058 599.239 25.747 602.119 28.487L609.011 21.2415ZM589.086 13.9316H563.012V23.9316H589.086V13.9316ZM558.012 18.9316V60.7529H568.012V18.9316H558.012ZM703.856 64.708V69.708H708.856V64.708H703.856ZM657.641 64.708V59.708H652.641V64.708H657.641ZM657.641 102.501H652.641V107.501H657.641V102.501ZM711.327 102.501H716.327V97.501H711.327V102.501ZM711.327 114V119H716.327V114H711.327ZM643.578 114H638.578V119H643.578V114ZM643.578 7.35938V2.35938H638.578V7.35938H643.578ZM710.595 7.35938H715.595V2.35938H710.595V7.35938ZM710.595 18.9316V23.9316H715.595V18.9316H710.595ZM657.641 18.9316V13.9316H652.641V18.9316H657.641ZM657.641 53.209H652.641V58.209H657.641V53.209ZM703.856 53.209H708.856V48.209H703.856V53.209ZM703.856 59.708H657.641V69.708H703.856V59.708ZM652.641 64.708V102.501H662.641V64.708H652.641ZM657.641 107.501H711.327V97.501H657.641V107.501ZM706.327 102.501V114H716.327V102.501H706.327ZM711.327 109H643.578V119H711.327V109ZM648.578 114V7.35938H638.578V114H648.578ZM643.578 12.3594H710.595V2.35938H643.578V12.3594ZM705.595 7.35938V18.9316H715.595V7.35938H705.595ZM710.595 13.9316H657.641V23.9316H710.595V13.9316ZM652.641 18.9316V53.209H662.641V18.9316H652.641ZM657.641 58.209H703.856V48.209H657.641V58.209ZM698.856 53.209V64.708H708.856V53.209H698.856ZM767.943 70.8604L772.349 68.4965L770.935 65.8604H767.943V70.8604ZM742.895 70.8604V65.8604H737.895V70.8604H742.895ZM742.895 114V119H747.895V114H742.895ZM728.759 114H723.759V119H728.759V114ZM728.759 7.35938V2.35938H723.759V7.35938H728.759ZM791.747 15.5625L788.512 19.375L788.519 19.3811L788.526 19.3871L791.747 15.5625ZM796.068 56.7979L792.035 53.8428L792.026 53.8558L792.016 53.8689L796.068 56.7979ZM781.127 67.8574L779.344 63.1861L773.964 65.2397L776.752 70.2784L781.127 67.8574ZM806.176 113.121H811.176V111.83L810.551 110.7L806.176 113.121ZM806.176 114V119H811.176V114H806.176ZM791.088 114L786.682 116.364L788.096 119H791.088V114ZM742.895 59.3613H737.895V64.3613H742.895V59.3613ZM781.127 53.9414L777.844 50.1703L777.833 50.1799L777.822 50.1896L781.127 53.9414ZM781.42 24.2783L778.075 27.9948L778.087 28.0051L778.098 28.0154L781.42 24.2783ZM764.428 18.9316L764.461 13.9317L764.444 13.9316H764.428V18.9316ZM742.895 18.9316V13.9316H737.895V18.9316H742.895ZM767.943 65.8604H742.895V75.8604H767.943V65.8604ZM737.895 70.8604V114H747.895V70.8604H737.895ZM742.895 109H728.759V119H742.895V109ZM733.759 114V7.35938H723.759V114H733.759ZM728.759 12.3594H764.062V2.35938H728.759V12.3594ZM764.062 12.3594C775.38 12.3594 783.285 14.9402 788.512 19.375L794.982 11.75C787.318 5.24729 776.766 2.35938 764.062 2.35938V12.3594ZM788.526 19.3871C793.636 23.6899 796.488 30.0934 796.488 39.4395H806.488C806.488 27.8871 802.846 18.3726 794.968 11.7379L788.526 19.3871ZM796.488 39.4395C796.488 45.1141 794.965 49.8433 792.035 53.8428L800.102 59.7529C804.398 53.8891 806.488 47.0461 806.488 39.4395H796.488ZM792.016 53.8689C789.092 57.9149 784.948 61.0471 779.344 63.1861L782.91 72.5287C790.099 69.7849 795.916 65.5441 800.121 59.7268L792.016 53.8689ZM776.752 70.2784L801.801 115.542L810.551 110.7L785.502 65.4364L776.752 70.2784ZM801.176 113.121V114H811.176V113.121H801.176ZM806.176 109H791.088V119H806.176V109ZM795.494 111.636L772.349 68.4965L763.537 73.2242L786.682 116.364L795.494 111.636ZM742.895 64.3613H764.501V54.3613H742.895V64.3613ZM764.501 64.3613C772.353 64.3613 779.187 62.3142 784.432 57.6932L777.822 50.1896C774.864 52.7952 770.614 54.3613 764.501 54.3613V64.3613ZM784.41 57.7125C789.768 53.0476 792.353 46.7773 792.353 39.4395H782.353C782.353 44.2109 780.786 47.6086 777.844 50.1703L784.41 57.7125ZM792.353 39.4395C792.353 31.7977 790.018 25.231 784.742 20.5413L778.098 28.0154C780.732 30.3569 782.353 33.8976 782.353 39.4395H792.353ZM784.765 20.5618C779.635 15.9447 772.605 13.9853 764.461 13.9317L764.395 23.9315C771.094 23.9756 775.393 25.5807 778.075 27.9948L784.765 20.5618ZM764.428 13.9316H742.895V23.9316H764.428V13.9316ZM737.895 18.9316V59.3613H747.895V18.9316H737.895Z" fill="white"/>
+              </svg>
+               -->
+    
+      </div>
+    <div class="container12">
+        <header id="header">
+            <a href="#" class="logo">PortFolio</a>
+            <div id="toggle"></div>
+            <div id="navbar">
+                <ul>
+                    <div class="nav-space"></div> 
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li> 
+                    <li><a href="#topjbs">Top Jobs</a></li> 
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#team12">Our Team</a></li>
+                    <li><a href="#contact1">Contact Me</a></li>
+                    <li><a href="#faq-sec">FAQs</a></li>
+                </ul>
+            </div>
+            <!-- <div id="navsani"></div> -->
+        </header>
+        <div id="home">
+            <div class="home-box">
+                <div class="home-content">
+                    <h4>Hii,</h4>
+                    <h1>I'M UMA</h1>
+                    <h3>I build Frontend Websites</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptatibus saepe impedit maiores voluptate.</p>
+                    <a href="#about" class="btn1">Read More</a>
+                </div>
+                <div class="home-ic-im">
+                    <div class="home-icons">
+                        <i id="ic-img" class='bx bxl-github'></i>
+                        <i id="ic-img" class='bx bxl-linkedin' ></i>
+                        <i id="ic-img" class='bx bxl-instagram' ></i>
+                    </div>
+                    <div class="home-img">
+                        <img src="img/image.png" class="home-img-pn" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-me" data-aos="zoom-in">
+                <h1>About <span> Me</span></h1>
+                <p id="pi21">Dolor sit amet consectetur adipisicing elit. Ratione architecto qui praesentium
+                    iure nihil, quae enim sint magnam corrupti inventore Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Aliquam maiores, reprehenderit temporibus atque voluptatem quisquam odio animi
+                    perspiciatis magnam dignissimos.</p>
+            </div>
+            <div class="about-content">
+                <div class="left-about"  data-aos="zoom-in">
+                    <div class="box01">
+                        <i id="box-i" class='bx bxs-graduation' style='color:#ffffff'  ></i>
+                        <span id="box-span">2020</span>
+                        <h2 id="box-h2">Web developer</h2>
+                        <p id="box-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime neque molestiae. Blanditiis eius et, nulla porro expedita sit sed.</p>
+                    </div>
+                </div>
+                <div class="right-about" data-aos="zoom-in">
+                    <img id="img-rit" src="img/icons/chat-regular-24.png" alt="">
+                    <h1>About this project</h1>
+                    <p id="pi">This website is made using HTML5, CSS3 & Pure Javascript.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit Consequatu commodi Lorem.</p>
+                    <a download="" href="pdf.html.pdf" class="btn23" id="btnjs">Download Codes</a>
+                </div>
+            </div>
+            <div class="ab_space"></div>
+        </div>
+    </section>
+    <hr>
+    <section id="topjbs">
+        <h1 id="tpjbh1">Top Jobs</h1>
+        <div class="tpjobs">
+            <div class="course-col" data-aos="zoom-in">
+                <img src="img/data-scientist.png" id="tpjbimg" alt="">
+                <h1 id="h">01</h1><hr>
+                <h2 id="jobnm">Data Scientist</h2>
+                <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores placeat dignissimos reiciendis provident vitae quis sunt ut quidem consectetur omnis quo at, quae aliquid officiis quam eos soluta corrupti.</p>
+            </div>
+            <div class="course-col" data-aos="zoom-in">
+                <img src="img/cyber-security.png" id="tpjbimg" alt="">
+                <h1 id="h">02</h1><hr>
+                <h2 id="jobnm">Cyber Security Professional</h2>
+                <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores placeat dignissimos reiciendis provident vitae quis sunt ut quidem consectetur omnis quo at, quae aliquid officiis quam eos soluta corrupti.</p>
+            </div>
+            <div class="course-col" data-aos="zoom-in">
+                <img src="img/web-programming.png" id="tpjbimg" alt="">
+                <h1 id="h">03</h1><hr>
+                <h2 id="jobnm">Full Stack Web Developer</h2>
+                <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores placeat dignissimos reiciendis provident vitae quis sunt ut quidem consectetur omnis quo at, quae aliquid officiis quam eos soluta corrupti.</p>
+            </div>
+            <div class="course-col" data-aos="zoom-in">
+                <img src="img/devops.png" id="tpjbimg" alt="">
+                <h1 id="h">04</h1><hr>
+                <h2 id="jobnm">DevOps Engineer</h2>
+                <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores placeat dignissimos reiciendis provident vitae quis sunt ut quidem consectetur omnis quo at, quae aliquid officiis quam eos soluta corrupti.</p>
+            </div>
+            <div class="course-col" data-aos="zoom-in">
+                <img src="img/computer.png" id="tpjbimg" alt="">
+                <h1 id="h">05</h1><hr>
+                <h2 id="jobnm">BlockChain Developer</h2>
+                <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores placeat dignissimos reiciendis provident vitae quis sunt ut quidem consectetur omnis quo at, quae aliquid officiis quam eos soluta corrupti.</p>
+            </div>
+            <div class="course-col" data-aos="zoom-in">
+                <img src="img/settings.png" id="tpjbimg" alt="">
+                <h1 id="h">06</h1><hr>
+                <h2 id="jobnm">Software Architech</h2>
+                <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores placeat dignissimos reiciendis provident vitae quis sunt ut quidem consectetur omnis quo at, quae aliquid officiis quam eos soluta corrupti.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="skill-title">
+            <h1>Frontend Skills</h1>
+        </div>
+        <div class="skill-items-s" data-aos="zoom-in">
+            <div class="skill-item">
+                <h5 id="h5">HTML5</h5>
+                <div class="progress">
+                    <div class="progress-in" style="width: 95%">
+                        <div class="skill-percent">95%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h5 id="h5">CSS3</h5>
+                <div class="progress">
+                    <div class="progress-in" style="width: 82%">
+                        <div class="skill-percent">82%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h5 id="h5">Javascript</h5>
+                <div class="progress">
+                    <div class="progress-in" style="width: 68%">
+                        <div class="skill-percent">68%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h5 id="h5">Bootstrap</h5>
+                <div class="progress">
+                    <div class="progress-in" style="width: 40%">
+                        <div class="skill-percent">40%</div> 
+                    </div>
+                </div>
+            </div>
+            <div id="lastsp" class="skill-item">
+                <h5 id="h5">Reactjs</h5>
+                <div class="progress">
+                    <div class="progress-in" style="width: 50%">
+                        <div class="skill-percent">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill_space"></div>
+    </section>
+    <hr>
+
+    <section id="team12">
+        <h1 class="team-heading">Our Team</h1>
+
+        <div class="profiles">
+            <div class="profile border-lf" data-aos="zoom-in">
+                <img src="img/team1.jpg" class="profile-img" alt="">
+                <h3 class="team-name">Christopher</h3>
+                <h5 class="team-w">Senior Developer</h5>
+                <p class="team-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci autem in tenetur
+                    earum distinctio consequatur totam quam laboriosam quis repudiandae fugit ipsum repellat voluptates
+                    sunt soluta</p>
+            </div>
+
+
+            <div class="profile border-rg" data-aos="zoom-in">
+                <img src="img/team6.jpg" class="profile-img" alt="">
+                <h3 class="team-name">Angela</h3>
+                <h5 class="team-w">UI/UX Designer</h5>
+                <p class="team-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci autem in tenetur
+                    earum distinctio consequatur totam quam laboriosam quis repudiandae fugit ipsum repellat voluptates
+                    sunt soluta</p>
+            </div>
+
+
+            <div class="profile border-lf" data-aos="zoom-in">
+                <img src="img/team2.jpg" class="profile-img" alt="">
+                <h3 class="team-name">Veronica</h3>
+                <h5 class="team-w">Project Manager</h5>
+                <p class="team-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci autem in tenetur
+                    earum distinctio consequatur totam quam laboriosam quis repudiandae fugit ipsum repellat voluptates
+                    sunt soluta</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+
+    <section id="contact1">
+        <div class="banner1">
+            <section class="contact">
+                <div class="content" data-aos="zoom-in">
+                    <h1>Contact Me</h1>
+                    <p> Commodi tempora a dolorem voluptatem Lorem ipsum dolor sit amet</p>
+
+                </div>
+                <div class="container">
+                    <div class="contact-info" data-aos="zoom-in">
+                        <div class="box">
+                            <div class="icon"></div>
+                            <div class="text">
+                                <h3>Address:-</h3>
+                                <p>IP-172.16.254.1,Titan;</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"></div>
+                            <div class="text">
+                                <h3>Phone:-</h3>
+                                <p>111-312-9843-****</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"></div>
+                            <div class="text">
+                                <h3>Email:-</h3>
+                                <p>LoremIpsum*****@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactform" data-aos="zoom-in">
+                        <form>
+                            <h2>Send a message</h2>
+                            <div class="inputbox">
+                                <input type="text" placeholder="Your Name" required="required">
+                            </div>
+                            <div class="inputbox">
+                                <input type="text" placeholder="Your Email" required="required">
+                            </div>
+                            <div class="inputbox">
+                                <textarea required="required"></textarea>
+                                <span>Type Your Message...</span>
+                            </div>
+                            <div class="inputbox">
+                                <input type="reset" name="" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="faq-sec">
+        <h1 id="faq-h1">FAQs</h1>
+        <div class="faq-contain" data-aos="zoom-in">
+            <div class="content-bx">
+                <div class="label">What is lorem?</div>
+                <div class="content-fq">
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                </div>
+            </div>
+            <div class="content-bx">
+                <div class="label">Download the source codes?</div>
+                <div class="content-fq">
+                    <p>Just go to the about section, you can see there the download option. Just click there and click OK ,the pdf will be downloaded.</p>
+                </div>
+            </div>
+            <div class="content-bx">
+                <div class="label">Web dev free learning?</div>
+                <div class="content-fq">
+                    <p>If you want to learn web development building projects side-by-side in a very easy way, then you should go through the web dev couse of "CodeWithHarry" on Youtube.</p>
+                </div>
+            </div>
+            <div class="content-bx">
+                <div class="label">About Web development</div>
+                <div class="content-fq">
+                    <p>Web dev is a fun, creative experience.Fortunately, the high demand, easy-to-learn, fun-to-experience.Life of a web developer is always a great choice for someone ready to have an exciting career in code.</p>
+                </div>
+            </div>
+            <div class="content-bx">
+                <div class="label">MERN vs MEAN</div>
+                <div class="content-fq">
+                    <p>Both MEAN and MERN are full stack frameworks with Java coded components. The difference is that MEAN uses Angular JS while MERN uses the React JS developed by Facebook.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-a">
+            <a href="#home" class="btn-f">To the top &#8593;</a>
+            <div class="footer-row">
+                <div class="footer-logo-p" data-aos="zoom-in">
+                    <h2 id="socialh2" class="footer-logo">PortFolio</h2>
+                    <p id="socialh2" class="footer-l-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae hic iste accusantium omnis vel pariatur nobis aperiam eius quasi labore aut eius maxime assumenda doloribus.</p>
+                    <div class="social-flw">
+                        <div id="footer-ic" class="Face-fc"><i id="sc-fc" class='bx bxl-facebook' style='color:#ffffff'  ></i></div>
+                        <div id="footer-ic" class="Pint-pn"><i id="sc-fc" class='bx bxl-pinterest-alt' style='color:#ffffff' ></i></div>
+                        <div id="footer-ic" class="Twit-tw"><i id="sc-fc" class='bx bxl-twitter' style='color:#ffffff' ></i></div>
+                    </div>
+                </div>
+                <div class="quicklinks" data-aos="zoom-in">
+                    <h3 id="socialh2">Quick Links</h3>
+                    <ul>
+                        <li><a id="abv" href="#home">Home</a></li>
+                        <li><a id="abv" href="#about">About Me</a></li> 
+                        <li><a id="abv" href="#topjbs">Top Jobs</a></li> 
+                        <li><a id="abv" href="#skill">Skills</a></li>
+                        <li><a id="abv" href="#team12">Our Team</a></li>
+                        <li><a id="abv" href="#contact1">Contact Me</a></li>
+                        <li><a id="abv" href="#faq-sec">FAQs</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="f-para">
+                <hr>
+                <p id="para-ft">&copy; All Rights Reserved By <span id="Rg-nm">Uma Shankar </span>(2021)</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- AOS Data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 100,
+          duration: 700,
+      });
+    </script>
+  
+</body>
+
+</html>
